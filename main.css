@@ -1,32 +1,12 @@
-/* ----------------------------- start variable ----------------------------- */
-:root {
-  --main-color: #cafb42;
-  --sec-color: ;
-  --primary-font: "Francois One", sans-serif;
-  --sec-font: ;
-}
-
-/* ------------------------------ End variable ------------------------------ */
-
-/* --------------------------- Start Global rules --------------------------- */
-
 * {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 body {
-  font-family: "Francois One", sans-serif;
   padding-left: 1rem;
   padding-right: 1rem;
   margin-left: auto;
   margin-right: auto;
-  background-color: var(--back-cl);
   scroll-behavior: smooth;
 }
 
@@ -42,7 +22,7 @@ li,
 a {
   list-style: none;
   text-decoration: none;
-}
+}/*# sourceMappingURL=main.css.map */
 
 /* Small */
 
