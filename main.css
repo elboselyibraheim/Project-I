@@ -1,10 +1,9 @@
 /* ----------------------------- start variable ----------------------------- */
 :root {
-    --main-color: ;
-    --sec-color: ;
-    --primary-font: 'Francois One', sans-serif;
-    --sec-font: ;
-
+  --main-color: #cafb42;
+  --sec-color: ;
+  --primary-font: "Francois One", sans-serif;
+  --sec-font: ;
 }
 
 /* ------------------------------ End variable ------------------------------ */
@@ -12,66 +11,65 @@
 /* --------------------------- Start Global rules --------------------------- */
 
 * {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-    font-family: 'Francois One',
-        sans-serif;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: var(--back-cl);
-    scroll-behavior: smooth;
+  font-family: "Francois One", sans-serif;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--back-cl);
+  scroll-behavior: smooth;
 }
 
 .container {
-    padding-left: 2rem;
-    padding-right: 2rem;
-    margin-left: auto;
-    margin-right: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 ul,
 li,
 a {
-    list-style: none;
-    text-decoration: none;
+  list-style: none;
+  text-decoration: none;
 }
 
 /* Small */
 
 @media (max-width: 400px) {
-    .container {
-        width: 390px;
-    }
+  .container {
+    width: 390px;
+  }
 }
 
 @media (min-width: 768px) {
-    .container {
-        width: 750px;
-    }
+  .container {
+    width: 750px;
+  }
 }
 
 /* medium */
 
 @media (min-width: 992) {
-    .container {
-        width: 970px;
-    }
+  .container {
+    width: 970px;
+  }
 }
 
 /* large */
 
 @media (min-width: 1200px) {
-    .container {
-        width: 1170px;
-    }
+  .container {
+    width: 1170px;
+  }
 }
